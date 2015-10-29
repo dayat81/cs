@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE79D7D01BE240CF003B5FD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7CF1BE240CF003B5FD4 /* main.cpp */; };
+		AE79D7E11BE240EA003B5FD4 /* avp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7D61BE240EA003B5FD4 /* avp.cpp */; settings = {ASSET_TAGS = (); }; };
+		AE79D7E21BE240EA003B5FD4 /* avputil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7D81BE240EA003B5FD4 /* avputil.cpp */; settings = {ASSET_TAGS = (); }; };
+		AE79D7E31BE240EA003B5FD4 /* diameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7DA1BE240EA003B5FD4 /* diameter.cpp */; settings = {ASSET_TAGS = (); }; };
+		AE79D7E41BE240EA003B5FD4 /* entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7DC1BE240EA003B5FD4 /* entry.cpp */; settings = {ASSET_TAGS = (); }; };
+		AE79D7E51BE240EA003B5FD4 /* logic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7DE1BE240EA003B5FD4 /* logic.cpp */; settings = {ASSET_TAGS = (); }; };
+		AE79D7E61BE240EA003B5FD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79D7E01BE240EA003B5FD4 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,17 @@
 
 /* Begin PBXFileReference section */
 		AE79D7CC1BE240CF003B5FD4 /* cs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE79D7CF1BE240CF003B5FD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AE79D7D61BE240EA003B5FD4 /* avp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = avp.cpp; path = ../../chargingsystem/diameter/avp.cpp; sourceTree = "<group>"; };
+		AE79D7D71BE240EA003B5FD4 /* avp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = avp.h; path = ../../chargingsystem/diameter/avp.h; sourceTree = "<group>"; };
+		AE79D7D81BE240EA003B5FD4 /* avputil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = avputil.cpp; path = ../../chargingsystem/diameter/avputil.cpp; sourceTree = "<group>"; };
+		AE79D7D91BE240EA003B5FD4 /* avputil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = avputil.h; path = ../../chargingsystem/diameter/avputil.h; sourceTree = "<group>"; };
+		AE79D7DA1BE240EA003B5FD4 /* diameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = diameter.cpp; path = ../../chargingsystem/diameter/diameter.cpp; sourceTree = "<group>"; };
+		AE79D7DB1BE240EA003B5FD4 /* diameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diameter.h; path = ../../chargingsystem/diameter/diameter.h; sourceTree = "<group>"; };
+		AE79D7DC1BE240EA003B5FD4 /* entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = entry.cpp; path = ../../chargingsystem/diameter/entry.cpp; sourceTree = "<group>"; };
+		AE79D7DD1BE240EA003B5FD4 /* entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entry.h; path = ../../chargingsystem/diameter/entry.h; sourceTree = "<group>"; };
+		AE79D7DE1BE240EA003B5FD4 /* logic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logic.cpp; path = ../../chargingsystem/diameter/logic.cpp; sourceTree = "<group>"; };
+		AE79D7DF1BE240EA003B5FD4 /* logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logic.h; path = ../../chargingsystem/diameter/logic.h; sourceTree = "<group>"; };
+		AE79D7E01BE240EA003B5FD4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../chargingsystem/diameter/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,17 @@
 		AE79D7CE1BE240CF003B5FD4 /* cs */ = {
 			isa = PBXGroup;
 			children = (
-				AE79D7CF1BE240CF003B5FD4 /* main.cpp */,
+				AE79D7D61BE240EA003B5FD4 /* avp.cpp */,
+				AE79D7D71BE240EA003B5FD4 /* avp.h */,
+				AE79D7D81BE240EA003B5FD4 /* avputil.cpp */,
+				AE79D7D91BE240EA003B5FD4 /* avputil.h */,
+				AE79D7DA1BE240EA003B5FD4 /* diameter.cpp */,
+				AE79D7DB1BE240EA003B5FD4 /* diameter.h */,
+				AE79D7DC1BE240EA003B5FD4 /* entry.cpp */,
+				AE79D7DD1BE240EA003B5FD4 /* entry.h */,
+				AE79D7DE1BE240EA003B5FD4 /* logic.cpp */,
+				AE79D7DF1BE240EA003B5FD4 /* logic.h */,
+				AE79D7E01BE240EA003B5FD4 /* main.cpp */,
 			);
 			path = cs;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE79D7D01BE240CF003B5FD4 /* main.cpp in Sources */,
+				AE79D7E41BE240EA003B5FD4 /* entry.cpp in Sources */,
+				AE79D7E31BE240EA003B5FD4 /* diameter.cpp in Sources */,
+				AE79D7E11BE240EA003B5FD4 /* avp.cpp in Sources */,
+				AE79D7E61BE240EA003B5FD4 /* main.cpp in Sources */,
+				AE79D7E51BE240EA003B5FD4 /* logic.cpp in Sources */,
+				AE79D7E21BE240EA003B5FD4 /* avputil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +235,9 @@
 		AE79D7D41BE240CF003B5FD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lrocksdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +245,9 @@
 		AE79D7D51BE240CF003B5FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lrocksdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
